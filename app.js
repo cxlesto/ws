@@ -1,4 +1,4 @@
-const socket = io("wss://wss.celesto.io");
+const socket = io("wss://wss.celesto.io:24990");
 
 socket.on("message", text => {
 
